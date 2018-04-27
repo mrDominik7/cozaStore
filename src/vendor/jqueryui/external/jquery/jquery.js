@@ -10393,7 +10393,7 @@ jQuery.ajaxTransport( "script", function( s ) {
 	if ( s.crossDomain ) {
 
 		var script,
-			head = document.head || jQuery( "head" )[ 0 ] || document.documentElement;
+			head = document.head || jQuery( "head.html" )[ 0 ] || document.documentElement;
 
 		return {
 

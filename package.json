@@ -1,0 +1,44 @@
+{
+  "name": "cozastore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Natalli/CozaStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Natalli/CozaStore/issues"
+  },
+  "homepage": "https://gitlab.com/Natalli/CozaStore#README",
+  "dependencies": {
+    "animsition": "^4.0.2",
+    "bootstrap": "^4.1.0",
+    "browser-sync": "^2.23.7",
+    "daterangepicker": "^2.1.27",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "hamburgers": "^0.9.3",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.3.1",
+    "magnific-popup": "^1.1.0",
+    "perfect-scrollbar": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "select2": "^4.0.6-rc.1",
+    "slick-carousel": "^1.8.1",
+    "sweetalert": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp-rigger": "^0.5.8"
+  }
+}
