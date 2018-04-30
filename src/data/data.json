@@ -1,0 +1,111 @@
+{
+  "category": [
+    {
+      "name": "women",
+      "products": [
+        {
+          "prod_name": "Herschel supply",
+          "img": [
+            "images/product-02.jpg"
+          ],
+          "cost": 35.31,
+          "descr": "Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "color": [
+            "red",
+            "blue",
+            "white",
+            "gray"
+          ]
+        },
+        {
+          "prod_name": "Classic Trench Coat",
+          "img": [
+            "images/product-04.jpg"
+          ],
+          "cost": 25.50,
+          "descr": "Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "color": [
+            "red",
+            "blue",
+            "white",
+            "gray"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "men",
+      "products": [
+        {
+          "prod_name": "Lightweight Jacket",
+          "img": [
+            "images/product-detail-01.jpg",
+            "images/product-detail-02.jpg",
+            "images/product-detail-03.jpg"
+          ],
+          "cost": 58.79,
+          "descr": "Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "color": [
+            "red",
+            "blue",
+            "white",
+            "gray"
+          ]
+        },
+        {
+          "prod_name": "Only Check Trouser",
+          "img": [
+            "images/product-11.jpg"
+          ],
+          "cost": 25.50,
+          "descr": "Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "color": [
+            "red",
+            "blue",
+            "white",
+            "gray"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bag",
+      "products": [
+      ]
+    },
+    {
+      "name": "shoes",
+      "products": [
+      ]
+    },
+    {
+      "name": "watches",
+      "products": [
+      ]
+    }
+  ]
+}

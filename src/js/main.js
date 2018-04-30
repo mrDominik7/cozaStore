@@ -1,3 +1,8 @@
+//= partials/getProducts.js
+//= partials/artem.js
+//= partials/alex.js
+//= partials/anna.js
+
 
 (function ($) {
     "use strict";

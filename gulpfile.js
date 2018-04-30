@@ -1,6 +1,7 @@
 'use strict';
 
 var gulp = require('gulp'),
+    babel = require('gulp-babel'),
     watch = require('gulp-watch'),
     prefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
@@ -19,7 +20,8 @@ var path = {
         css: 'build/css/',
         images: 'build/images/',
         fonts: 'build/fonts/',
-        vendor: 'build/vendor/'
+        vendor: 'build/vendor/',
+        data: 'build/data/'
     },
     src: {
         html: 'src/*.html',
@@ -27,7 +29,8 @@ var path = {
         css: 'src/css/*.css',
         images: 'src/images/**/*.*',
         fonts: 'src/fonts/**/*.*',
-        vendor: 'src/vendor/**/*.*'
+        vendor: 'src/vendor/**/*.*',
+        data: 'src/data/**/*.*'
     },
     watch: {
         html: 'src/**/*.html',
@@ -35,7 +38,8 @@ var path = {
         css: 'src/css/**/*.css',
         images: 'src/images/**/*.*',
         fonts: 'src/fonts/**/*.*',
-        vendor: 'src/vendor/**/*.*'
+        vendor: 'src/vendor/**/*.*',
+        data: 'src/data/**/*.*'
     },
     clean: './build'
 };
@@ -60,6 +64,9 @@ gulp.task('html:build', function () {
 gulp.task('js:build', function () {
    gulp.src(path.src.js)
     .pipe(rigger())
+       .pipe(babel({
+           presets: ['env']
+       }))
        .pipe(sourcemaps.init())
        .pipe(uglify())
        .pipe(sourcemaps.write())
@@ -92,13 +99,19 @@ gulp.task('vendor:build', function () {
         .pipe(gulp.dest(path.build.vendor))
 });
 
+gulp.task('data:build', function () {
+    gulp.src(path.src.data)
+        .pipe(gulp.dest(path.build.data))
+});
+
 gulp.task('build', [
    'html:build',
     'js:build',
     'css:build',
     'fonts:build',
     'images:build',
-    'vendor:build'
+    'vendor:build',
+    'data:build'
 ]);
 
 gulp.task('watch', function () {
