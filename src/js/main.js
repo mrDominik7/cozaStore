@@ -31,7 +31,7 @@
     
     /*[ Back to top ]
     ===========================================================*/
-    var windowH = $(window).height()/2;
+    let windowH = $(window).height()/2;
 
     $(window).on('scroll',function(){
         if ($(this).scrollTop() > windowH) {

@@ -4,6 +4,7 @@
       "name": "women",
       "products": [
         {
+          "art": "001",
           "prod_name": "Herschel supply",
           "img": [
             "images/product-02.jpg"
@@ -24,6 +25,7 @@
           ]
         },
         {
+          "art": "002",
           "prod_name": "Classic Trench Coat",
           "img": [
             "images/product-04.jpg"
@@ -49,6 +51,7 @@
       "name": "men",
       "products": [
         {
+          "art": "003",
           "prod_name": "Lightweight Jacket",
           "img": [
             "images/product-detail-01.jpg",
@@ -71,6 +74,7 @@
           ]
         },
         {
+          "art": "004",
           "prod_name": "Only Check Trouser",
           "img": [
             "images/product-11.jpg"
