@@ -2,11 +2,13 @@
   "users":[
     {
       "email": "email111@gmail.com",
-      "password": "12345678"
+      "password": "12345678",
+      "name": "Alex"
     },
     {
       "email": "email222@gmail.com",
-      "password": "asdfghj"
+      "password": "asdfghj",
+      "name": "David"
     }
   ]
 }

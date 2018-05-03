@@ -810,6 +810,19 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   }
 }
 
+/*//////////////////////////////////////////////////////////////////
+[ Log In Modal ]*/
+#logInModal {
+  z-index: 1101;
+}
+label,
+.form-control {
+  font-family: Poppins-Medium;
+  font-size: 14px;
+}
+.error-msg{
+  color: red;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Sidebar ]*/
