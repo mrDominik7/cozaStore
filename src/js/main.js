@@ -61,7 +61,7 @@
 
     if($(window).scrollTop() > posWrapHeader) {
         $(headerDesktop).addClass('fix-menu-desktop');
-        $(wrapMenu).css('top',0); 
+        $(wrapMenu).css('top',0);
     }  
     else {
         $(headerDesktop).removeClass('fix-menu-desktop');
@@ -71,7 +71,7 @@
     $(window).on('scroll',function(){
         if($(this).scrollTop() > posWrapHeader) {
             $(headerDesktop).addClass('fix-menu-desktop');
-            $(wrapMenu).css('top',0); 
+            $(wrapMenu).css('top',0);
         }  
         else {
             $(headerDesktop).removeClass('fix-menu-desktop');
